@@ -1,0 +1,662 @@
+fileFormatVersion: 2
+guid: c1049501d65582b4f9ec2dbcfba1fef9
+timeCreated: 1488538328
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Abdomen
+    100002: Arm_Pole_Target_L
+    100004: Arm_Pole_Target_R
+    100006: Character
+    100008: Chest
+    100010: Foot_L
+    100012: Foot_R
+    100014: Hand_L
+    100016: Hand_R
+    100018: Head
+    100020: //RootNode
+    100022: LowArm_L
+    100024: LowArm_R
+    100026: LowLeg_L
+    100028: LowLeg_R
+    100030: Neck
+    100032: Root
+    100034: Skeleton
+    100036: UpArm_L
+    100038: UpArm_R
+    100040: UpLeg_L
+    100042: UpLeg_R
+    400000: Abdomen
+    400002: Arm_Pole_Target_L
+    400004: Arm_Pole_Target_R
+    400006: Character
+    400008: Chest
+    400010: Foot_L
+    400012: Foot_R
+    400014: Hand_L
+    400016: Hand_R
+    400018: Head
+    400020: //RootNode
+    400022: LowArm_L
+    400024: LowArm_R
+    400026: LowLeg_L
+    400028: LowLeg_R
+    400030: Neck
+    400032: Root
+    400034: Skeleton
+    400036: UpArm_L
+    400038: UpArm_R
+    400040: UpLeg_L
+    400042: UpLeg_R
+    4300000: Character
+    7400000: Default Take
+    7400002: Idle
+    7400004: Untitled
+    7400006: Walking
+    7400008: Walking0
+    9500000: //RootNode
+    13700000: Character
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Idle' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'Chest' has scale animation that will be discarded.\n\t'UpArm_L'
+      has translation animation that will be discarded.\n\t'UpArm_R' has translation
+      animation that will be discarded.\n\nClip 'Untitled' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Chest' has scale animation that will be
+      discarded.\n\t'UpArm_L' has translation animation that will be discarded.\n\t'UpArm_R'
+      has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths:
+    - Skeleton/Root/Abdomen/Chest/UpArm_R/LowArm_R/Hand_R
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walking0
+      takeName: Walking
+      firstFrame: 0
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 0
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Arm_Pole_Target_L
+        weight: 0
+      - path: Skeleton/Root/Arm_Pole_Target_R
+        weight: 0
+      - path: Skeleton/Root/Abdomen
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/Neck
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/Neck/Head
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_L/LowArm_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_L/LowArm_L/Hand_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_R/LowArm_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_R/LowArm_R/Hand_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_L/LowLeg_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_L/LowLeg_L/Foot_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_R/LowLeg_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_R/LowLeg_R/Foot_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      firstFrame: 0
+      lastFrame: 79.92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 0
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Arm_Pole_Target_L
+        weight: 0
+      - path: Skeleton/Root/Arm_Pole_Target_R
+        weight: 0
+      - path: Skeleton/Root/Abdomen
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/Neck
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/Neck/Head
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_L/LowArm_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_L/LowArm_L/Hand_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_R/LowArm_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_R/LowArm_R/Hand_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_L/LowLeg_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_L/LowLeg_L/Foot_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_R/LowLeg_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_R/LowLeg_R/Foot_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Untitled
+      takeName: Untitled
+      firstFrame: -1
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 0
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Arm_Pole_Target_L
+        weight: 0
+      - path: Skeleton/Root/Arm_Pole_Target_R
+        weight: 0
+      - path: Skeleton/Root/Abdomen
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/Neck
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/Neck/Head
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_L/LowArm_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_L/LowArm_L/Hand_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_R/LowArm_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_R/LowArm_R/Hand_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_L/LowLeg_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_L/LowLeg_L/Foot_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_R/LowLeg_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_R/LowLeg_R/Foot_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walking
+      takeName: Walking
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Character
+        weight: 0
+      - path: Skeleton
+        weight: 1
+      - path: Skeleton/Root
+        weight: 1
+      - path: Skeleton/Root/Arm_Pole_Target_L
+        weight: 0
+      - path: Skeleton/Root/Arm_Pole_Target_R
+        weight: 0
+      - path: Skeleton/Root/Abdomen
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/Neck
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/Neck/Head
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_L/LowArm_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_L/LowArm_L/Hand_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_R/LowArm_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/Chest/UpArm_R/LowArm_R/Hand_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_L/LowLeg_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_L/LowLeg_L/Foot_L
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_R/LowLeg_R
+        weight: 1
+      - path: Skeleton/Root/Abdomen/UpLeg_R/LowLeg_R/Foot_R
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Abdomen
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpLeg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpLeg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowLeg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowLeg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpArm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UpArm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowArm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LowArm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Ladypants(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character
+      parentName: Ladypants(Clone)
+      position: {x: -0.012213978, y: 0.00000011285334, z: -3.2227454}
+      rotation: {x: 1.0559242e-15, y: 0, z: -0, w: 1}
+      scale: {x: 0.8414956, y: 0.8414956, z: 0.8414955}
+    - name: Skeleton
+      parentName: Ladypants(Clone)
+      position: {x: 0.014514607, y: 3.8297834, z: -0.000000033294697}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1.1883603, y: 1.1883603, z: 1.1883603}
+    - name: Root
+      parentName: Skeleton
+      position: {x: -0.012213978, y: 0.00000011285334, z: -3.2227457}
+      rotation: {x: 0.7071068, y: 0.7071067, z: 0.00000009415696, w: 0.00000009415697}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_Pole_Target_L
+      parentName: Root
+      position: {x: 1.1470964, y: -1.9662331, z: -4.79818}
+      rotation: {x: 0.000000059604645, y: -0.7071068, z: -0.00000017881393, w: 0.7071068}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: Arm_Pole_Target_R
+      parentName: Root
+      position: {x: 1.1470966, y: 1.9662343, z: -4.798178}
+      rotation: {x: 0.000000059604645, y: -0.7071068, z: -0.00000017881393, w: 0.7071068}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: Abdomen
+      parentName: Root
+      position: {x: -0.000000118287126, y: 0.012214469, z: -3.2391362}
+      rotation: {x: -0.000000029802322, y: -0.7071068, z: -0.0000002682209, w: 0.7071068}
+      scale: {x: 1.000001, y: 1.0000005, z: 1.0000001}
+    - name: Chest
+      parentName: Abdomen
+      position: {x: -1.2277131, y: 0.00000009295036, z: 1.6371e-11}
+      rotation: {x: 0.000000042146837, y: -0.000000042146848, z: 1.0355613e-14, w: 1}
+      scale: {x: 1.0000367, y: 1.0000367, z: 1.0000361}
+    - name: Neck
+      parentName: Chest
+      position: {x: -1.4040028, y: 0.00000010477015, z: 5.85715e-10}
+      rotation: {x: 0.0000000436099, y: 0.12454541, z: 0.0000000046481734, w: 0.99221396}
+      scale: {x: 1.000001, y: 1.0000005, z: 1}
+    - name: Head
+      parentName: Neck
+      position: {x: -0.31458873, y: 0.000000022908353, z: -0.000000117237505}
+      rotation: {x: -0.00000003395875, y: -0.11438356, z: 0.000000084189054, w: 0.99343663}
+      scale: {x: 1.0000007, y: 1.0000006, z: 1.0000004}
+    - name: UpArm_L
+      parentName: Chest
+      position: {x: -1.1858376, y: -0.76228285, z: -0.02169689}
+      rotation: {x: 0.013900086, y: 0.007858126, z: 0.72618335, w: 0.68731576}
+      scale: {x: 1.000001, y: 1.0000005, z: 1.0000012}
+    - name: LowArm_L
+      parentName: UpArm_L
+      position: {x: -1.4934793, y: -0.00000013154931, z: 0.000000029802322}
+      rotation: {x: -0.71083987, y: 0.03446293, z: 0.017546846, w: 0.70228994}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000005}
+    - name: Hand_L
+      parentName: LowArm_L
+      position: {x: -0.9926433, y: 0.000000037485734, z: 0.00000006984919}
+      rotation: {x: -0.02341166, y: -0.08690711, z: 0.0107047, w: 0.9958838}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1.0000004}
+    - name: UpArm_R
+      parentName: Chest
+      position: {x: -1.1858373, y: 0.7378545, z: -0.021697242}
+      rotation: {x: -0.108873986, y: 0.10826851, z: -0.71811, w: 0.6787801}
+      scale: {x: 1.000001, y: 0.9999996, z: 1.0000001}
+    - name: LowArm_R
+      parentName: UpArm_R
+      position: {x: -1.4934796, y: 0.00000014156103, z: 0.000000022351742}
+      rotation: {x: -0.41993073, y: 0.019847684, z: 0.033191018, w: 0.90673184}
+      scale: {x: 0.9999999, y: 1.0000013, z: 1.0000006}
+    - name: Hand_R
+      parentName: LowArm_R
+      position: {x: -0.9926432, y: 0.00000004284084, z: -0.00000006775372}
+      rotation: {x: -0.03312373, y: 0.08517067, z: -0.020329155, w: 0.99560815}
+      scale: {x: 0.9999999, y: 1.0000013, z: 1.0000007}
+    - name: UpLeg_L
+      parentName: Abdomen
+      position: {x: -0.012108605, y: -0.556754, z: 0.004674256}
+      rotation: {x: -0.0027730656, y: 0.7071014, z: 0.70710135, w: 0.0027730572}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0002517}
+    - name: LowLeg_L
+      parentName: UpLeg_L
+      position: {x: -1.6874397, y: 0.000000059837475, z: -0.000000025844201}
+      rotation: {x: -0.9999144, y: -0.012647776, z: -0.0033559464, w: -0.000026255842}
+      scale: {x: 1.000001, y: 1.0000012, z: 1.0000011}
+    - name: Foot_L
+      parentName: LowLeg_L
+      position: {x: -1.516746, y: 0.000000033993274, z: -0.000000013969839}
+      rotation: {x: 0.4939572, y: 0.5026442, z: 0.5060385, w: 0.49727282}
+      scale: {x: 1.0000007, y: 1.0000004, z: 1.0000004}
+    - name: UpLeg_R
+      parentName: Abdomen
+      position: {x: -0.012108287, y: 0.532326, z: 0.004674255}
+      rotation: {x: -0.0056267874, y: 0.7070844, z: 0.7070844, w: 0.0056266887}
+      scale: {x: 1.0000007, y: 1.0000008, z: 0.99971205}
+    - name: LowLeg_R
+      parentName: UpLeg_R
+      position: {x: -1.6630421, y: 0.00000011338852, z: -0.000000067200745}
+      rotation: {x: -0.9996716, y: -0.025407579, z: 0.0033569122, w: 0.000021666288}
+      scale: {x: 0.9999998, y: 1.0000005, z: 1.0000004}
+    - name: Foot_R
+      parentName: LowLeg_R
+      position: {x: -1.5167463, y: 0.0000002051238, z: -0.000000019557774}
+      rotation: {x: 0.4928497, y: 0.51035005, z: 0.506944, w: 0.48954037}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
