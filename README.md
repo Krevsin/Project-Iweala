@@ -1,3 +1,3 @@
 # Project-Iweala
 
-This is where I dump the code and assorted files for Project Iweala (working title)
+This is a backup where I store the code and assets for various games I make.
